@@ -1,0 +1,2 @@
+# Astray
+Astray is an adventure/shooting/RPG game inspired by The Binding of Isaac and The Legend of Zelda (1986). You play as an astronaut astray on an alien planet abandoned by an ancient civilization, exploring a dark, alien-infested dungeon full of unexpected dangers. This project was developed as part of a training program for new members of USPGameDev, University of São Paulo's game development studies and research student group.
