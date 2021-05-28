@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4138942143510240633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4138942143510240615}
+  - component: {fileID: 4138942143510240612}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4138942143510240615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4138942143510240633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4138942143510240612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4138942143510240633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83697fbfadfff5c4e96ad86796d62b7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 8617677891687257346, guid: d0645199f9260e64f85fb531a4442298,
+    type: 2}
+  sounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: a7081231c97622144bd4c73563abae5d, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 0
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 8617677891687257346, guid: d0645199f9260e64f85fb531a4442298,
+      type: 2}
+    source: {fileID: 0}
+  - name: BossTheme
+    clip: {fileID: 8300000, guid: 09f596f6b1cac0d46af9a8233f21ddf8, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 0
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 8617677891687257346, guid: d0645199f9260e64f85fb531a4442298,
+      type: 2}
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 3094f6037ce4964448b0a2628fda33bf, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 0
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 8617677891687257346, guid: d0645199f9260e64f85fb531a4442298,
+      type: 2}
+    source: {fileID: 0}
+  - name: WinGame
+    clip: {fileID: 8300000, guid: c7f412a5528152e469627c12bd7186e0, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 0
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 8617677891687257346, guid: d0645199f9260e64f85fb531a4442298,
+      type: 2}
+    source: {fileID: 0}
